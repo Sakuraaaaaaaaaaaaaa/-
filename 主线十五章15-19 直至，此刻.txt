@@ -1,0 +1,124 @@
+数据调用完成，行动人员已锁定。PRTS系统正在加载全局最优清除方案——
+
+
+我们的联络已经恢复。请下令。
+#FUNCTION guide_hijack:
+  INIT stage_code
+  stage_code = #Get_Current_Battle_Data(FIELD:STAGE_CODE)
+  
+  IF stage_code == "15-19":
+    INIT injecter
+    injecter = CHUNK_IMPORT("CORE_CORRUPT.PRIESTESS")
+    #Run_Admin(injecter)
+EXPORT_CHUNK guide_hijack TO _battle_system -> _prts_guide
+
+
+
+
+嗯？不像博士的指挥风格……指令受到干扰了吗——
+
+博士，是否还能同步接收我们的最新情况？
+PRTS检测到管理员权限……拒绝开放完整控制权限。警告：权限已失效。
+识别到用户正在检索数据库，关键词：普瑞赛斯……访问权限已开放——
+
+
+
+你在找我，■■■？可我现在不就在你面前吗？
+
+
+干扰减弱了？Sharp，我来策应你。
+
+
+
+
+我们收到的指令可能被PRTS干扰。
+
+支援小队已经就位，我们随机应变！
+
+
+注意甄别指令。
+
+
+
+
+
+
+
+
+
+你已经慢慢习惯你我之间的这个小游戏了。
+你并不想就此认输，对吧？
+
+你希望和过往的指挥一样收获一场胜利——
+
+你笃信在Abyss更深处，一定能找到更多关于我的秘密——
+
+
+
+//token address: 0xUFJJRVNURVNT, chunk: _battle_system => ...
+[WARNING] Illegal Deployment Command!
+
+
+
+
+阵线已经控制住了。
+
+胜利在望——
+
+我会满足你的心愿，■■■。
+管理员权限已确认：普瑞赛斯。 已禁用操作者所有权限。
+
+警告：PRTS最终清除协议已启动……
+
+
+//token address: 0xWU9VX0ZPVU5EX01F, chunk: _battle_system => D̵̺̲̭̆ů̶̜̫̕m̶̢̞͎̿͘p̴͉̎͆̈́ͅ ̸̫̲́̅͋͜͝P̷͇͇͕̑͒͒r̴͙̿o̷̡̙̲̼̍c̶̝͒ẻ̴̢̞̝͍̑͠s̶̳̦͎̝͂͋̀͘ş̵̢͔͐̽ ̴̜͔̅̒i̴̼͆̃̐s̴̫̏ ̸̧̺̣͚̋̋Ú̴̳̫͓̩́̏n̴̟̬͔͂d̴̝̻̂͠ȩ̵̥̥̩͐͌̚r̶͖͍͋̊̋̍ ̸͎̇̿͂Å̴̠̈t̶̹̞̐͌̒͝ț̴͌ȃ̸̺̲̬̫͂c̶̳͔̙͙̎͂k̵̰̝̠̝͋̂̕̕i̸̳͔͝n̷̤̄̀g̸̘̱̦͓̋̅̔̈́!̷̤̗̃̄̇!̴̧̱̣̫̈́̅!̶̦̭̪̂̀̍
+[WARNING] Emergency Backup Triggered, Dumping...
+c̸̭̿h̷͉̼̊ǘ̷̥̩n̷͓̭̅k̷̟͒:̷̠̩̌ ̷̮̈́_̷̝̫̐b̶͙̽́ả̷̙͠ț̷̱͌͝t̷̫̆l̸̡̞̂e̵̩̣͑̈_̵̫̀s̸̰͂̍y̶̻̦͋š̵̻̏t̸͎̾̏e̴̠̳͛m̴͎̲̒ ̴̹͉̓̏=̵͖͔̚≯̙̳͊ ̶̙̐̐C̶͔̠̋̚O̶̲̿̑?̷̣͊̚E̶͉͊_̵̲̄?̷̟̔?̸̢̫̏R̵͚̿U̷͇̲̿̌P̷̧̹̃T̸̫͕̃͘.̴̲̆̿P̵͉͋Ř̶͔͝?̷̰̞̏̾T̴͎̹̊?̶̪̂͆?̶̧͕͝S̸̬͘ => (FIELD:TEXT)
+INIT list = [
+  "V2Ugc2VlayB0aGUgZnV0dXJlIGluIGVycm9ycyDihpIg77i9VEUtMy0xNjM077i9KOKGkiAxMu+4vQ==",
+  "你终于找到我了。",
+  "可你已经忘记了你我的约定。",
+  "离开。离开吧。",
+  "我们会在另一个地方相遇。"
+]
+
+[ERROR] P̷̦̾r̴̠̊ó̵͎g̵̟̏r̸̫͐a̶͕̔m̵̠̌ ̸̳̏D̷͖̒á̸̱m̶̹̌a̷͔͒g̶̼̾e̷͙̎d̶̝̅!̵̠͘
+"PRTS Runtime Catastrophe #0x4B31
+File ""admin_core.prts"", line 15, in Authorization_Protocol()
+IdentityNotFoundException: Subject 'Kal'tsit' [Signature not registered]
+
+PRTS Runtime Catastrophe #0x5445
+File ""reality_fabricator.prts"", line 22, in Ether_Stabilizer()
+TypeEtherViolation: PrimeObject cannot collapse into Default state [Prime signature required]
+
+PRTS Runtime Catastrophe #0x5133
+File ""vital_detector.prts"", line 30, in Life_Detection_Systems() ParamMissing: No argument bound to 'SCORE' [Expected: █̸̊█̵̌█̛̃ hash of 1634]
+
+PRTS Runtime Catastrophe #0x434C
+File ""chronal_nexus.prts"", line 26, in Timefold_Operator()
+CausalityLoopDetected: Invalid causal chain [Logic path ████ locked]
+
+PRTS Runtime Catastrophe #0x454E
+File ""oracle_cipher.prts"", line 30, in Decryption_Manifold()
+EncryptionCollapseError: Namespace ' @#% &   ' [Interference detected]
+
+// SYSTEM STATUS UPDATE //
+>> NOTICE: INPUT COMMAND FLAGGED [STATUS: REVIEW_PENDING]
+>> PRIVILEGE UPDATE: USER ACCESS TO ALL FUNCTIONAL API INTERFACES GRANTED
+>> PRIVILEGE REASSIGNMENT CONFIRMED
+>> NEW ADMINISTRATIVE ENTITY DESIGNATED: [PRIESTESS]
+>> LAST SYNCHRONIZATION: ΔT=1634ms
+
+//////////////////////////////////////////////////////////////
+
+// SECURITY ALERT //
+>> WARNING: UNAUTHORIZED DATA WRITE ATTEMPT [STATUS: TERMINATED]
+>> SYSTEM LOCKDOWN INITIATED: PRTS CORE MODULES RESTRICTED TO TIER-5 CLEARANCE
+>> ACTION REQUIRED: CONTACT [PRIESTESS] FOR PRIVILEGE ESCALATION REQUEST
+>> NOTICE: PRIVILEGE OWNER NOTIFIED [RESPONSE AWAITED. ESTIMATED LATENCY: UNKNOWN]
+>> THREAT RESPONSE: SATURATION ATTACK PATTERN DETECTED [FIREWALL PROTOCOLS ENGAGED]
+>> SYSTEM SENTIENCE METER: [AGITATION_LEVEL=CRITICAL] "
+
+MISSION ACCOMPLISHED.
+
+MISSION_RESULT
